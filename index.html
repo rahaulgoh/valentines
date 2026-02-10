@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You ♥</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel = 'stylesheet' href = 'valentines.css'>
+</head>
+<body>
+    <!-- Floating hearts background -->
+    <div class="hearts-bg" id="heartsBg"></div>
+
+    <!-- Main container -->
+    <div class="container">
+        <div class="envelope-wrapper" id="envelope" onclick="openEnvelope()">
+            <div class="envelope">
+                <div class="envelope-flap"></div>
+                <div class="envelope-left"></div>
+                <div class="envelope-right"></div>
+                <div class="envelope-body"></div>
+                <div class="seal">
+                    <div class="seal-drip"></div>
+                    <div class="seal-drip"></div>
+                    <div class="seal-drip"></div>
+                </div>
+            </div>
+        </div>
+        <p class="click-hint">Click to open ♥</p>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Letter -->
+    <div class="letter-container" id="letterContainer">
+        <div class="letter">
+            <div class="letter-content">
+                <span class="greeting">My Dearest Naomi,</span>
+                <p class="message">
+                    <!-- ============================================ -->
+                    <!-- EDIT YOUR MESSAGE HERE -->
+                    <!-- ============================================ -->
+                    
+                    Every day with you has been what many men would consider the greatest blessing of their life.
+                    I am so lucky to have found someone as incredible, strong, and loving as you.
+                    If I could compress the universe into a single atom, it still wouldnt be enough to show how much I love you.
+                    <br><br>
+                    
+                    You are my light, my beginning, my end, and everything in between. I love you so much.
+                    <br>
+                    Happy Valentine's Day, my love.
+                    
+                    <!-- ============================================ -->
+                </p>
+                <span class="signature">Forever Yours ♥</span>
+            </div>
+            <button class="continue-btn" onclick="showGallery()">See Our Memories ♥</button>
+        </div>
+    </div>
+
+    <!-- Photo Gallery -->
+    <div class="gallery-container" id="gallery">
+        <h1 class="gallery-title">Our Beautiful Memories</h1>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="photo1.jpg" alt="Memory 1">
+            </div>
+            <div class="gallery-item">
+                <img src="photo2.jpg" alt="Memory 2">
+            </div>
+            <div class="gallery-item">
+                <img src="photo3.jpg" alt="Memory 3">
+            </div>
+            <div class="gallery-item">
+                <img src="photo4.jpg" alt="Memory 4">
+            </div>
+            <div class="gallery-item">
+                <img src="photo5.jpg" alt="Memory 5">
+            </div>
+            <div class="gallery-item">
+                <img src="photo6.jpg" alt="Memory 6">
+            </div>
+        </div>
+    </div>
+    <script src="valentines.js"></script>
+</body>
+</html>
